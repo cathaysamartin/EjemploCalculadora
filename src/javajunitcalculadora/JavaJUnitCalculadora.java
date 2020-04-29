@@ -15,12 +15,14 @@ public class JavaJUnitCalculadora
     
     public void modifica(int n1, int n2)
     {
+        System.out.println("Vamos a modificar\n");
         num1 = n1;
         num2 = n2;
     }
     
     public int suma()
     {
+        System.out.println("Vamos a sumar\n");
         int resul = 0;
         resul = num1 + num2;
         return(resul);
@@ -28,12 +30,14 @@ public class JavaJUnitCalculadora
 
     public int resta()
     {
+        System.out.println("Vamos a restar\n");
         int resul = num1 - num2;
         return(resul);
     }
     
     public int multiplica()
     {
+        System.out.println("Vamos a multiplicar\n");
         int resul = num1 * num2;
         return(resul);
     }
