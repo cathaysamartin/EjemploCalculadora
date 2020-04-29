@@ -44,6 +44,7 @@ public class JavaJUnitCalculadora
     
     public int divide()
     {
+        System.out.println("Vamos a dividir\n");
         int resul=0;
         try
         {
